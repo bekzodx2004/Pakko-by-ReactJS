@@ -1,38 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+}
+@font-face {
+  font-family: Inter;
+  src: url(./Components/fonts/Inter/static/Inter-Regular.ttf);
+}
 .App {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.services_header {
+  max-width: 497px;
+  width: 95%;
+  margin: auto;
   text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin-top: 96px;
+  margin-bottom: 34px;
+  color: #100a30;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.tarifs__header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  text-align: center;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #100a30;
+  margin: auto;
+  max-width: 591px;
+  width: 95%;
+  margin-bottom: 66px;
 }

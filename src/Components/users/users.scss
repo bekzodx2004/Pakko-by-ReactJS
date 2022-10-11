@@ -1,0 +1,53 @@
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 1544px;
+  padding: 10px;
+
+  padding-top: 90px;
+  padding-bottom: 28px;
+  max-width: 1232px;
+  width: 100%;
+  margin: auto;
+
+  & > h2 {
+    margin-left: 20px;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+
+    color: #100a30;
+    max-width: 375px;
+  }
+
+  & > :nth-child(2) {
+    background: #e8e5fb;
+  }
+  & > :nth-child(3) {
+    background: #e8faf3;
+  }
+  & > :nth-child(4) {
+    background: #e6f3ff;
+  }
+  & > :nth-child(5) {
+    background: #fff5e1;
+  }
+  & > :nth-child(6) {
+    background: #fdebee;
+  }
+  & > :nth-child(7) {
+    background: #e6f3ff;
+  }
+  & > :nth-child(8) {
+    background: #fff5e1;
+  }
+  & > :nth-child(9) {
+    background: #e8e5fb;
+  }
+  & > :nth-child(10) {
+    background: #fdebee;
+  }
+}

@@ -1,0 +1,18 @@
+
+ .services__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 290px;
+    height: 208px;
+    background: #ffffff;
+    box-shadow: -1px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin: 12px;
+  
+    &>img{
+      width: 88px;
+    }
+  }
+

@@ -1,0 +1,59 @@
+.top {
+  background: linear-gradient( #100a30  0% 85% ,white  85% 100% );
+  color: #ffffff;
+  overflow: hidden;
+  text-align: center;
+
+  & > h2 {
+    font-weight: 400;
+    font-size: 55px;
+
+    text-align: center;
+    letter-spacing: 0.56px;
+
+    color: #ffffff;
+    max-width: 583px;
+    width: 95%;
+    margin: auto;
+    margin-top: 62px;
+  }
+
+  & > p {
+    margin-top: 26px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+
+    text-align: center;
+    letter-spacing: 0.18px;
+
+    color: rgba(255, 255, 255, 0.7);
+  }
+  & > :nth-child(3) {
+    background: #624de3;
+    border-radius: 6px;
+    border: none;
+    width: 210px;
+    margin: 8px;
+  }
+  & > button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #c3c1cb;
+    border-radius: 8px;
+    width: 168px;
+    height: 54px;
+  }
+
+  &>img{
+    max-width:1207px ;
+    width: 95%;
+    margin: auto;
+
+  }
+}

@@ -1,0 +1,76 @@
+.tarifs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 84px;
+
+  & > :nth-child(1) {
+    & > .price {
+      background: url(../images/tarif1.png) no-repeat center center / cover;
+
+      & > h2 {
+        display: none;
+      }
+    }
+    
+    &>.comforts{
+        background-color:rgba(16, 10, 48, 0.03);;
+
+
+        &>h3{
+
+            &>i{
+                color: #624DE3 ;
+            }
+        }
+    }
+}
+
+  & > :nth-child(2) {
+    & > .price {
+      background: url(../images/tarif2.png) no-repeat center center / cover;
+
+      & > div {
+        & > h3 {
+          color: #19c787;
+        }
+      }
+    }
+
+    &>.comforts{
+        background-color: #F3FCF9;
+
+
+        &>h3{
+
+            &>i{
+                color:#19C787  ;
+            }
+        }
+    }
+  }
+
+  & > :nth-child(3) {
+    & > .price {
+      background: url(../images/tarif3.png) no-repeat center center / cover;
+
+      & > div {
+        & > h3 {
+          color: #ff9f1c;
+        }
+      }
+    }
+
+    &>.comforts{
+        background-color: rgba(252, 185, 52, 0.05);;
+
+
+        &>h3{
+
+            &>i{
+                color: #FCB935 ;
+            }
+        }
+    }
+  }
+}

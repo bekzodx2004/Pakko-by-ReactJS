@@ -1,0 +1,30 @@
+.analyzes {
+  & > :nth-child(odd) {
+    flex-direction: row;
+  }
+  & > :nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  &>:nth-child(2){
+    &>.analyzes__block__text{
+      &>h5{
+        color: #19C787;
+      }
+      &>a{
+        color: #19C787;
+      }
+    }
+  }
+
+  &>:nth-child(3){
+    &>.analyzes__block__text{
+      &>h5{
+        color: #0084FF ;
+      }
+      &>a{
+        color: #0084FF;
+      }
+    }
+  }
+}
